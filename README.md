@@ -1,77 +1,23 @@
-# Proyecto final de Programación II
+# Proyecto final de Programación II - Laberinto
+## Descripción:
+El proyecto consiste en un mundo (laberinto) por el cual nos podemos mover con un personaje en distintos terrenos, donde según el terreno, el personaje cambia de medio de transporte asi cambiando su velocidad. Asi mismo contamos con un medidor de tiempo el cual nos permite trabajar con una linterna (rango de visión) que según la hora del día límite nuestra vision por un rango limitado. En este también tenemos portales que nos permiten movernos entre distintos mundos (morado) y terminar la partida (rojo).
 
-Repositorio para proyectos de la asignatura **Programación II** del [Grado de Ingeniería Informática](https://www.uneatlantico.es/escuela-politecnica-superior/estudios-grado-oficial-en-ingenieria-informatica) la [Universidad Europea del Atlántico](https://www.uneatlantico.es).
+# Lista de Funcionalidades:
+- [x] Movimiento del personaje -El jugador se mueve con las teclas de dirección y A, W, S, D.
+- [x] Movimiento de la cámara - La cámara se mueve con el jugador.
+- [x] Colisiones - El jugador no puede pasar por las paredes o árboles.
+- [x] Cambio de terreno - El juego tiene diferentes terrenos que afectan a lac caracteristicas del jugador.
+- [x] Cambio de medio de transporte - El jugador cambia de medio de transporte según el terreno. A pie, Alfombra, a caballo y en bote.
+- [x] Cambio de visión - El medidor de tiempo se actualiza por cada 10 minutos cada vez y según la hora este dejar ver más o menos de un rango de pantalla completa a medio dia a solo 1 cuadro de distancia en la noche.
+- [x] Cambio de mundo - Al pasar por un portal morado el jugador cambia al mundo siguiente.
+- [x] Finalización de partida - Al pisar el portal rojo el jugador termina la partida con una pantalla negra con el texto de partida terminada.
+# Instrucciones para ejecutar el programa:
+1. Clonar el repositorio.
+2. Abrir el proyecto en el IDE (IntelliJ IDEA).
+3. Ejecutar el programa.
+4. Si da error null en tile manager cambiar el source del proyecto a la carpeta java, si no debería de inicializarse la ventana del juego.
+# Autores:
+- Veronika Esparragoza.
+- Jorge André Quiñonez Saavedra.
+- David Edmundo Montenegro Jarquin.
 
-El objetivo del proyecto final es aplicar todos los conocimientos adquiridos a lo largo de la asignatura. El entregable final
-consta del código fuente del proyecto y la documentación requerida.
-
-## Generalidades
-
-El proyecto debe cumplir con algunos requisitos mínimos basándonos en el checklist que se muestra abajo.
-
-## Checklist
-
-- [ ] 5 Clases
-- [ ] 2 Clases Abstractas
-- [ ] 2 Interfaces
-- [ ] 1 uso de alguna colección
-- [ ] 2 tests unitarios por cada clase
-- [ ] Diagrama UML (PlantUML)
-- [ ] 3 PR por cada repositorio
-- [ ] Uso de paquetes para organizar el proyecto
-- [ ] Manejo de excepciones.
-- [ ] Documento README.md con las instrucciones para ejecutar el proyecto y con la estructura descrita abajo.
-
-## Documento README.md
-
-El documento README.md debe contener la siguiente información:
-**Descripción**: Indicar que es lo que hace el sistema, para qué se pidió que se realizara y qué necesidad resuelve.
-
-**Listar las funcionalidades**: Una lista con todas las funcionalidades del programa incluyendo una breve descripción.
-
-**Diagrama de Clases**: Un diagrama de clases en UML que muestra la manera en la que se implementó la solución.
-
-**Capturas de pantalla**: Capturas de pantalla de las funcionalidades implementadas.
-
-**Instrucciones de uso**: Instrucciones para ejecutar el programa.
-
-**Autores**: Nombre de los autores del proyecto.
-
-> Puedes inspirarte con uno de estos templates: [Templates ejemplos](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates/tree/master/templates)
-
-# Entregas
-
-> Por favor, lee cuidadosamente las siguientes instrucciones antes de comenzar a trabajar en cualquier ejercicio.
-
-Crear una carpeta nombrada nombreApellido y dentro de ella los códigos fuentes para revisar.
-
-> Ex: elderBol > ejercicioUno
-
-> Para estos proyectos hacer el PR a la rama **main**
-
-# Estrategia de trabajo
-
-[![](docs/assets/strategy.png)](docs/strategy.puml)
-
-> Para cada proyecto, se recomienda crear una nueva rama en tu repositorio de GitHub y, posteriormente,
-> solicitar un Pull Request. De esta manera, se podrá mantener un registro claro y organizado de cada ejercicio, lo que facilitará su revisión y seguimiento.
-
-## Entrega de ejercicios
-
-1. Clonar tu repositorio de la asignatura o actualizarlo si ya lo tenías clonado.
-2. Crea una nueva rama con un nombre claro y descriptivo que indique el propósito del ejercicio.
-3. Modifica el código según lo requerido por la especificación del proyecto.
-4. Realiza pruebas exhaustivas para asegurarte de que tus cambios cumplen con los criterios de aceptación.
-5. Haz commit de tus cambios y súbelos a la rama que creaste.
-6. Envía una solicitud de extracción (Pull Request) a la rama principal para que se revise tu código.
-7. Una vez que tu solicitud de extracción sea aprobada y fusionada, elimina la rama que creaste.
-
-## Links de interés
-
-- [PlantUML](https://plantuml.ctdesarrollo-sdr.org)
-- [Eclipse](https://www.eclipse.org/downloads/) || [IntelliJ IDEA CE](https://www.jetbrains.com/es-es/idea/)
-- [Como hacer commit](https://github.com/eabol/progra2-22-23/blob/main/docs/commits.md)
-- [Commits Convencionales](https://www.conventionalcommits.org/en/v1.0.0/)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-test

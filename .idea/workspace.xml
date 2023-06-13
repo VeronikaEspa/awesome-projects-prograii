@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a5c4d4-514a-49a0-9a24-c1ac01bf52f6" name="Changes" comment="fix: edit structure project">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TileImages/chest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TileImages/endportal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TileImages/portal.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/TileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TileImages/grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TileImages/grass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TileImages/mediumgrass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TileImages/mediumgrass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TileImages/tallgrass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TileImages/tallgrass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TileImages/troubledwater.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TileImages/troubledwater.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TileImages/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TileImages/wall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_down1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_down1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_down2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_left1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_left2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_right1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_right2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_up1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/boat_up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/boat_up2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_down1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_down1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_down2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_left1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_left2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_right1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_right2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_up1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/carpet_up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/carpet_up2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_down1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_down1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_down2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_down2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_left1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_left2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_right1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_right1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_right2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_up1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_up1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/player/horse_up2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/player/horse_up2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
