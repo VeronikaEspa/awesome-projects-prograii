@@ -3,16 +3,18 @@ package core.character;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
 
-public class KeyHandler implements KeyListener {
+public abstract class KeyHandler implements KeyListener {
 
     public boolean inputKeyEvent;
     private String keyName;
+
+    public abstract boolean isInputKeyEvent();
 
     public String getKeyName() {
         return keyName;
     }
 
-    private void setKeyName(String keyName) {
+    public void setKeyName(String keyName) {
         this.keyName = keyName;
     }
 
@@ -55,4 +57,6 @@ public class KeyHandler implements KeyListener {
         }
     }
 
+    public void setInputKeyEvent(boolean b) {
+    }
 }

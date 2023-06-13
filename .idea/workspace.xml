@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a5c4d4-514a-49a0-9a24-c1ac01bf52f6" name="Changes" comment="fix: edit structure project">
+    <list default="true" id="48a5c4d4-514a-49a0-9a24-c1ac01bf52f6" name="Changes" comment="fix: correcting the light on the map">
+      <change afterPath="$PROJECT_DIR$/src/test/java/core/TileManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/awesome-projects-prograii.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/awesome-projects-prograii.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/character/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/character/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/character/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/character/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/character/PlayerDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/character/PlayerDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/WorldHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/WorldHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mazes/level3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mazes/level3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +25,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="jorgeQuinonez" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,23 +56,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/David/Documents/Code github/Code/awesome-projects-prograii/src/main/resources/TileImages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17782027",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/David/Documents/Code github/Code/awesome-projects-prograii/src/main/resources/TileImages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17782027&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,7 +94,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TileManagerTest.testParseMaze">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="awesome-projects-prograii" />
@@ -97,20 +108,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main" />
+    <configuration name="PlayerTest.testUpdate_PlayerMovesUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="awesome-projects-prograii" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.PlayerTest" />
+      <option name="METHOD_NAME" value="testUpdate_PlayerMovesUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TileManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome-projects-prograii" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.TileManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TileManagerTest.testLoadTileImages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome-projects-prograii" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.TileManagerTest" />
+      <option name="METHOD_NAME" value="testLoadTileImages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TileManagerTest.testParseMaze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="awesome-projects-prograii" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="core" />
+      <option name="MAIN_CLASS_NAME" value="core.TileManagerTest" />
+      <option name="METHOD_NAME" value="testParseMaze" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TileManagerTest.testParseMaze" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TileManagerTest.testLoadTileImages" />
+        <item itemvalue="JUnit.TileManagerTest" />
+        <item itemvalue="JUnit.PlayerTest.testUpdate_PlayerMovesUp" />
       </list>
     </recent_temporary>
   </component>

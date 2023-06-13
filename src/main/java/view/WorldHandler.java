@@ -37,7 +37,12 @@ public class WorldHandler extends JPanel implements Runnable {
         public final int worldWidth = maxWorldCol * originalSize;
         public final int worldHeight = maxWorldRow * originalSize;
         Thread gameThread;
-        KeyHandler keyHandler = new KeyHandler();
+        KeyHandler keyHandler = new KeyHandler() {
+                @Override
+                public boolean isInputKeyEvent() {
+                        return false;
+                }
+        };
         LightHandler lightHandler;
         PlayerDrawer player = new Player(this, keyHandler);
         ImageLoader imageLoader = new ImageLoader();
@@ -140,11 +145,8 @@ public class WorldHandler extends JPanel implements Runnable {
         }
 
         public void update() {
-                if (gameState == GameState.RUNNING) {
-                        player.update();
-                        time.advanceTime();
-                        this.lightHandler = new LightHandler(this, time);
-                }
+                player.update();
+                time.advanceTime();
         }
 
         public void paintComponent(Graphics g) {
